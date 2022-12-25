@@ -10,7 +10,7 @@ It is built from scratch and without using any exist sql related libraries.
 ```
 cd \build
 cmake .. -G "MinGW Makefiles"
-make
+cmake --build .
 main.exe
 ```
 
